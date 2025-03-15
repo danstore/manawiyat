@@ -1,0 +1,212 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حکایات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div id="header-content">
+            <h1 id="story-title"></h1>
+            <a href="#" id="home-link">صفحه نخست</a>
+            <a href="/cdn-cgi/l/email-protection#fa93949c95ba929f919b839b8ed4999597" id="email-link"><span class="__cf_email__" data-cfemail="7e171018113e161b151f071f0a501d1113">[email&#160;protected]</span></a>
+        </div>
+    </header>
+    <main>
+        <div id="sidebar">
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="جستجوی حکایات">
+                <button id="search-button">جستجو</button>
+            </div>
+            <div id="stories-list">
+                <h3>عنوان های حکایات</h3>
+                <ul id="stories">
+                    <li data-story="story1">گلستان سعدی - حکایت ۱</li>
+                    <li data-story="story2">گلستان سعدی - حکایت ۲</li>
+                    <li data-story="story3">بوستان سعدی - حکایت ۱</li>
+                    <li data-story="story4">مثنوی مولوی - حکایت ۱</li>
+                    <li data-story="story5">کلیله و دمنه - حکایت ۱</li>
+                </ul>
+            </div>
+        </div>
+        <div id="content-area">
+            <div id="story-content">
+                <div id="homepage-content">
+                    <h2>به سایت حکایات خوش آمدید </h2>
+                    <p>لطفا از فهرست سمت راست، حکایتی را انتخاب کنید یا عنوانی را جستجو نمایید. </p>
+                </div>
+                
+                <div id="story1" class="story-data" style="display: none;">
+                    <h2>حکایت بازرگان و طوطی</h2>
+                    <div class="story-content-container">
+                        <p>بازرگانی را طوطی‌ای در قفس بود. چون بازرگان به هندوستان می‌رفت، هر غلام و کنیزک را گفت تا از وی بخواهند چیزی که می‌خواهند تا از آنجا بیاورد. طوطی گفت: چون به هندوستان رسی طوطیان را سلام من برسان و بگو که فلان طوطی در بند تو اسیر است...</p>
+                    </div>
+                </div>
+                
+                <div id="story2" class="story-data" style="display: none;">
+                    <h2>حکایت پادشاه و درویش</h2>
+                    <div class="story-content-container">
+                        <p>پادشاهی با درویشی بی‌سر و پا همراه شد و درویش چون به دلق پادشاه آراسته بود، از فرط تکبر به پادشاه سلام نکرد. پادشاه به دل گفت: این درویش را تکبر بنگر که احترام مرا نکرد...</p>
+                    </div>
+                </div>
+                
+                <div id="story3" class="story-data" style="display: none;">
+                    <h2>حکایت حاتم طایی</h2>
+                    <div class="story-content-container">
+                        <p>شنیدم که حاتم طایی را بخششی بود بی‌حد و اندازه. هر که به درگاه او می‌آمد، دست خالی باز نمی‌گشت. روزی مسافری از راه رسید و طعام خواست...</p>
+                    </div>
+                </div>
+                
+                <div id="story4" class="story-data" style="display: none;">
+                    <h2>حکایت طوطی و بازرگان</h2>
+                    <div class="story-content-container">
+                        <p>بشنو از نی چون حکایت می‌کند / از جدایی‌ها شکایت می‌کند
+                        کز نیستان تا مرا ببریده‌اند / در نفیرم مرد و زن نالیده‌اند...</p>
+                    </div>
+                </div>
+                
+                <div id="story5" class="story-data" style="display: none;">
+                    <h2>حکایت شیر و گاو</h2>
+                    <div class="story-content-container">
+                        <p>در سرزمینی، شیری پادشاه بود و دو شغال به نام‌های کلیله و دمنه به خدمت او درآمدند. روزی گاوی به آن سرزمین آمد و شیر از صدای او هراسید...</p>
+                    </div>
+                </div>
+                
+                <!-- Template for adding new stories -->
+                <div id="story-template" class="story-data" style="display: none;">
+                    <h2 class="editable-title">عنوان حکایت جدید</h2>
+                    <div class="story-content-container">
+                        <p class="editable-content">متن حکایت را اینجا وارد کنید...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="additional-sections">
+                <div id="explanation-section" class="content-section">
+                    <h3>شرح و تفسیر</h3>
+                    <ul id="explanation-links">
+                        <li>
+                            <a href="#" class="explanation-link" data-target="interpretation">تفسیر استاد...</a>
+                            <div id="interpretation" class="explanation-content">
+                                <button class="explanation-button">بیت اول: گل صبر آب از دیده ما می‌چکد</button>
+                                <div class="explanation-content">
+                                    <div class="poem-line">گل صبر آب از دیده ما می‌چکد</div>
+                                    <div class="poem-analysis">این مصرع به صبوری و تحمل در برابر سختی‌ها اشاره دارد. شاعر از تشبیه گل صبر استفاده کرده که با اشک چشم (آب دیده) آبیاری می‌شود.</div>
+                                </div>
+                                
+                                <!-- Add button for new interpretation entries -->
+                                <button id="add-interpretation" class="add-explanation-button">افزودن بیت جدید</button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="explanation-link" data-target="difficult-words">معنی واژگان دشوار</a>
+                            <div id="difficult-words" class="explanation-content">
+                                <button class="explanation-button">واژه اول: دلق</button>
+                                <div class="explanation-content">
+                                    <div class="poem-line">دلق</div>
+                                    <div class="poem-analysis">جامه‌ای پشمینه و کهنه که درویشان و صوفیان می‌پوشیدند.</div>
+                                </div>
+                                
+                                <!-- Add button for new word entries -->
+                                <button id="add-word" class="add-explanation-button">افزودن واژه جدید</button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="explanation-link" data-target="literary-analysis">تحلیل ادبی</a>
+                            <div id="literary-analysis" class="explanation-content">
+                                <button class="explanation-button">صنایع ادبی: تشبیه و استعاره</button>
+                                <div class="explanation-content">
+                                    <div class="poem-line">صنایع ادبی: تشبیه و استعاره</div>
+                                    <div class="poem-analysis">در این حکایت، سعدی از تشبیهات متعددی استفاده کرده است. مانند تشبیه انسان به طوطی در قفس که نماد روح اسیر در قفس دنیاست.</div>
+                                </div>
+                                
+                                <!-- Add button for new analysis entries -->
+                                <button id="add-analysis" class="add-explanation-button">افزودن تحلیل جدید</button>
+                            </div>
+                        </li>
+                        <!-- Template for adding new explanation categories -->
+                        <li id="new-category-template" style="display: none;">
+                            <a href="#" class="explanation-link" data-target="new-category">دسته جدید...</a>
+                            <div id="new-category" class="explanation-content">
+                                <button id="add-new-category-item" class="add-explanation-button">افزودن مورد جدید</button>
+                            </div>
+                        </li>
+                        <!-- Add category button -->
+                        <li>
+                            <button id="add-category" class="add-category-button">افزودن دسته جدید</button>
+                        </li>
+                    </ul>
+                </div>
+                <div id="related-section" class="content-section">
+                    <h3>مطالب مرتبط</h3>
+                    <div class="related-items">
+                        <div class="related-box">
+                            <h4>حکایت های مشابه</h4>
+                            <p>حکایت هایی با مضمون مشابه از منابع دیگر</p>
+                        </div>
+                        <div class="related-box">
+                            <h4>آثار دیگر سعدی</h4>
+                            <p>آثار و کتاب های دیگر سعدی</p>
+                        </div>
+                        <div class="related-box">
+                            <h4>حکایات پندآموز</h4>
+                            <p>سایر حکایات پندآموز با مضامین اخلاقی</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="comments-section" class="content-section">
+                    <h3>نظرات</h3>
+                    <div id="comments-list">
+                        <p>نظری برای این حکایت ثبت نشده است.</p>
+                    </div>
+                    <form id="comment-form" class="comments-form">
+                        <div class="form-group">
+                            <label for="commenter-name">نام:</label>
+                            <input type="text" id="commenter-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="commenter-email">ایمیل:</label>
+                            <input type="email" id="commenter-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment-text">نظر شما:</label>
+                            <textarea id="comment-text" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">ارسال نظر</button>
+                    </form>
+                </div>
+                <div class="social-section">
+                    <div class="like-btn" id="like-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                        <span class="like-count" id="like-count">0</span>
+                    </div>
+                    <h3>اشتراک گذاری</h3>
+                    <div class="social-buttons">
+                        <div class="social-btn" data-platform="facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none" stroke="#3b5998" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="social-btn" data-platform="twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="social-btn" data-platform="telegram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .1 4.1l4.1 1.35 1.4 4.45a2.25 2.25 0 0 0 4.1-.1l7.5-16.5a2.242 2.242 0 0 0-1.678-4.015z" fill="none" stroke="#0088cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>ایمیل: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="076e696168476f626c667e66732964686a">[email&#160;protected]</a></p>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
